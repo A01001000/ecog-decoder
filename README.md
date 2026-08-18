@@ -1,4 +1,4 @@
-# The effect of noisy stimuli and goal-directed perception on Face recognition in ECoG
+# The Effect of Noisy Stimuli and Goal-directed Perception on Face Recognition in ECoG
 
 For more information, view the project gallery: https://airtable.com/app1MtChyjyKEDzAt/shrR68OdIIny48Ynt/tblvFwAE4oqf3M10o/viw3Ma2non57ofw6z/recglye9UrEvHGkc4
 
