@@ -14,5 +14,10 @@ The amplitude of response within goal-directed face perception is expected to be
 ## Methods
 We analyze human ECoG from 7 participants across two paradigms: a passive-viewing task and a goal-directed face-detection task, the latter requiring a button press to report target detection under varying visual noise levels (0–100% in 5% increments). For analysis, we apply cluster permutation analysis in order to find electrodes that significantly react to either faces or houses. We analyze spatial and temporal activity dynamics on those specific electrodes, both in the time and frequency domains. This is in addition to behavioural response evaluation. Next, we apply a linear discriminant classifier and Drift Diffusion Model (DDM) to decode whether participants were viewing faces or houses from ECoG broadband activity. Using these decoding models, we compare the differences in alpha power across goal-directed perception and investigate the representation of the stimuli across different noise levels. 
 
-## Expected Outcome
-We expect the decoders to have higher classification accuracy for goal-directed face perception than their passive counterparts. Moreover, they should better match the noise curves for face perception as compared to house perception.
+## Results
+Our LDA decoder was able to better classify face vs. house perception for the goal-directed ECoG data from Experiment 2 with a higher amplitude, supporting our hypothesis (H1).
+
+Moreover, we found a gradual decrease in broadband power as noise levels increased, with both LDA and DDM decoder accuracy dropping at 50% noise for face perception only. This is further evidence of our hypothesis (H2), and additionally posits a correlation between
+reaction times and noise.
+
+We suggest further research into the influence of goal directedness as face perception progresses over time and across different electrodes, as well as the relationship between noise and perception latency. 
